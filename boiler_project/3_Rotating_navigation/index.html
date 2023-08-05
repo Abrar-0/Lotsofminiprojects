@@ -3,13 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css"/>
-    <title>My Project</title>
+    <title>Rotating Navigation</title>
 </head>
 <body>
-    <h1>Project Starter</h1>
+    <div class="container">
+        <div class="circle-container">
+            <div class="circle">
+                <button id="close">
+                    <i class="fas fa-times"></i>
+                </button>
+                <button id="open">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
 
+        <div class="content">
+            <h1>Zutomayo</h1>
+            <small>ずっと真夜中でいいのに。</small>
+            <h3>I wish it was midnight all the time</h3>
+            <p>ずっと真夜中でいいのに (Zutto Mayonaka de Iinoni), meaning “I wish it was midnight all the time”, stylized in English as ZUTOMAYO or sometimes shortened to ZTMY. They are an indie J-pop/J-rock band with an anonymous female vocalist known as ACAね (ACAne). The rest of the band is also anonymous, with no full member list announced. </p>
+            <p>Their debut was an animated music video called 秒針を噛む (Byoushin wo Kamu) released in 2018 on YouTube from vocaloid animator Waboku. Despite the anonymity of the band, they reached relative mainstream commercial success in the weeks following. Since then, ZUTOMAYO has released 3 EPs and 2 Studio Albums with EMI Japan under Universal Music Japan, ranking high on the Oricon Charts multiple times. </p>
+            <h3>ACAね</h3>
+            <img src="https://lastfm.freetls.fastly.net/i/u/770x0/777859238868ab26545492d5d5d2836d.jpg#777859238868ab26545492d5d5d2836d" alt = ACAね/>
+            
+             <p>What I really like about ZUTOMAYO is their fast paced sound and well-thought-out compositions that present a strong identity; it’s easy to hear a song by them and know it’s ZUTOMAYO. In my mind, I put them into a category with other mainstream J-pop acts that utilize the piano/keyboard and infuse a jazz influence into their compositions similar to Gesu No Kiwami Otome and their related acts. ACAね also has a great expressive voice that goes well with this style of music; her voice has a clear and girlish quality to it that’s able to match the energetic tone of their songs, while also being able to incorporate lighter and airy, almost falsetto elements as well. </p>   
+        </div>
+    </div>
+    
+    <nav>
+        <ul>
+            <li><i class="fas fa-home">Home</i></li>
+            <li><i class="fas fa-user-alt">About</i></li>
+            <li><i class="fas fa-envelope">Contact</i></li>    
+        </ul>
+    </nav>
     <script src="script.js"></script>
 </body>
 </html> 
